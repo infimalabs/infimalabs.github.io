@@ -1,0 +1,9 @@
+title: Infima Labs
+author: C Anthony Risinger
+description: >-
+  Infima Labs
+
+assets_path: /assets/
+
+sass:
+  style: compressed
