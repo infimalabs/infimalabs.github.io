@@ -10,10 +10,10 @@
 
 // Font Mixins
 @mixin serif-font {
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', 'Garamond', 'Georgia', serif;
 }
 @mixin body-font {
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Slab', 'Garamond', 'Georgia', serif;
 }
 @mixin heading-font {
   font-family: 'Kanit', 'Helvetica Neue', Helvetica, Arial, sans-serif;
