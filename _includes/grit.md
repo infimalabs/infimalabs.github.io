@@ -6,7 +6,7 @@ the real game, GRIT allows players to practice from home. GRIT uses a mouse,
 keyboard and monitor for the menu and field building parts of the game, and
 then you enter VR to experience the field you've designed.
 
-##### Grit can mix input from VR controllers and the Vive Tracker.
+##### GRIT can mix input from VR controllers and the Vive Tracker.
 
 GRIT only requires one VR controller but will detect two, as it's designed
 so the player can replicate the feel of swapping their gun from hand to hand.
