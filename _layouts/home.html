@@ -34,10 +34,11 @@ layout: default
         </div>
         <div class="window row">
           {%- for story in site.data.default.brand.speedball.stories -%}
+          {%- capture markdown -%}{%- include {{ story.include }} -%}{%- endcapture -%}
           <div class="col-sm-12">
             <div class="speedball-story">
               <img class="mx-auto" src="{{ site.assets_path }}{{ story.img }}" alt="{{ story.alt }}">
-              <div class="mx-auto">{{ story.text | markdownify }}</div>
+              <div class="mx-auto">{{ markdown | markdownify }}</div>
             </div>
           </div>
           {%- endfor -%}
