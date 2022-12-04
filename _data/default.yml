@@ -1,5 +1,8 @@
 brand:
-  name: "Infima&nbsp;LABS"
+  name:
+  - infima
+  - "&lt;"
+  - labs
   intro:
     heading:
     - V is for Visceral
@@ -10,7 +13,7 @@ brand:
     - img: img/grit.jpg
       alt: Looking to gain an edge in the real game?
       text: |
-        # Looking to gain an edge in the real game?
+        ### Looking to gain an edge in the real game?
         
         ***GRIT PAINTBALL*** is a Virtual Reality tournament paintball trainer
         and simulator. Aimed mostly at current paintball players looking to

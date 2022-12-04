@@ -15,13 +15,24 @@
     @include navbar-font;
   }
   .navbar-brand {
-    color: $light;
+    color: $gray-400;
     @include logo-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: lighten($light, 30%);
+      color: lighten($gray-400, 30%);
+    }
+    .logo-lt {
+      color: $primary;
+      font-family: "Rubik Glitch";
+      vertical-align: top;
+      line-height: 100%;
+      font-size: 150%;
+      &:hover {
+        color: $secondary;
+        transition: all 0.3s;
+      }
     }
   }
   .navbar-nav {
