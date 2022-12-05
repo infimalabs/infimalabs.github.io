@@ -25,5 +25,5 @@ could be missed when walking a real field before an event. It also allows field
 owners and tournament operators to walk their field design to see whether
 adjustments need to be made before publishing a layout for a real event.
 Targets are also included in the field editor, allowing players to practice
-muscle memory for breakouts, snap shots and, with a large enough play area,
+muscle memory for breakouts, snapshots and, with a large enough play area,
 moves from bunker to bunker.
