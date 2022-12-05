@@ -9,7 +9,7 @@
     font-size: 12px;
     right: 0;
     padding: 13px;
-    color: white;
+    color: $gray-400;
     border: 0;
     background-color: $primary;
     @include navbar-font;
@@ -38,7 +38,7 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: $light;
+        color: $gray-400;
         font-weight: 400;
         padding: 0.75em 0;
         text-shadow: 0 0 0.4em $dark, 0 0 0.3em $dark, 0 0 0.2em $secondary, 0 0 0.1em $tertiary;
