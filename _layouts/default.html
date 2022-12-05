@@ -62,11 +62,8 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <!-- <ul class="list-inline quicklinks">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Use</a></li>
-            </ul> -->
+          <div class="copyright col-md-4">
+            &copy;&nbsp;<strong>{{ 'now' | date: "%Y" }}</strong>&nbsp;{{ site.data.default.copyright }}
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -76,8 +73,11 @@
               {%- endfor -%}
             </ul>
           </div>
-          <div class="copyright col-md-4">
-            &copy;&nbsp;<strong>{{ 'now' | date: "%Y" }}</strong>&nbsp;{{ site.data.default.copyright }}
+          <div class="col-md-4">
+            <!-- <ul class="list-inline quicklinks">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+            </ul> -->
           </div>
         </div>
       </div>
