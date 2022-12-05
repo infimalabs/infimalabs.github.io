@@ -1,4 +1,4 @@
-### Looking to gain an edge in the real game?
+### Looking to gain an edge in the real game? [Play GRIT on SteamVR&trade;](https://store.steampowered.com/app/1323610/Grit_Paintball/)
 
 ***GRIT PAINTBALL*** is a Virtual Reality tournament paintball trainer and
 simulator. Aimed mostly at current paintball players looking to gain an edge in
