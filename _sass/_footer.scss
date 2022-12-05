@@ -6,10 +6,10 @@ footer {
   text-align: center;
   .copyright {
     @include heading-font;
+    @include text-shadow;
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    text-shadow: 0 0 0.4em $dark, 0 0 0.3em $dark, 0 0 0.2em $dark, 0 0 0.1em $tertiary;
   }
   ul.quicklinks {
     font-size: 90%;
@@ -17,5 +17,6 @@ footer {
     margin-bottom: 0;
     text-transform: none;
     @include heading-font;
+    @include text-shadow;
   }
 }

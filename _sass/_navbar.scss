@@ -1,8 +1,8 @@
 // Styling for the navbar
 
 #mainNav {
+  @include text-shadow;
   text-align: right;
-  text-shadow: 0 0 0.4em $dark, 0 0 0.3em $dark, 0 0 0.2em $dark, 0 0 0.1em $dark;
   border-bottom: none;
   background-color: $dark;
   .navbar-toggler {
@@ -13,10 +13,12 @@
     border: 0;
     background-color: $primary;
     @include navbar-font;
+    @include text-shadow;
   }
   .navbar-brand {
     color: $gray-400;
     @include logo-font;
+    @include text-shadow;
     &.active,
     &:active,
     &:focus,
@@ -41,8 +43,8 @@
         color: $gray-400;
         font-weight: 400;
         padding: 0.75em 0;
-        text-shadow: 0 0 0.4em $dark, 0 0 0.3em $dark, 0 0 0.2em $secondary, 0 0 0.1em $tertiary;
         @include navbar-font;
+        @include text-shadow;
         &.active,
         &:hover {
           color: $primary;

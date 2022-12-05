@@ -60,13 +60,13 @@ section {
   text-align: justified;
   h2.section-heading {
     color: $light;
-    text-shadow: 0 0 0.4em $dark, 0 0 0.3em $dark, 0 0 0.2em $dark, 0 0 0.1em $tertiary;
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    @include text-shadow;
   }
   h3.section-subheading {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 75px;
@@ -86,6 +86,7 @@ section {
 // Button Styles
 .btn {
   @include heading-font;
+  @include text-shadow;
   font-weight: 700;
 }
 
