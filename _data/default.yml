@@ -24,10 +24,6 @@ brand:
     url: https://www.instagram.com/infimalabs/
   - title: twitter
     url: https://twitter.com/infimalabs
-  - title: tiktok
-    url: https://www.tiktok.com/@infimalabs
-  - title: github
-    url: https://github.com/infimalabs
 nav:
 - title: GRIT
   url: '#speedball'
