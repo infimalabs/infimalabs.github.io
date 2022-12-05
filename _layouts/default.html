@@ -15,7 +15,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="{{ site.assets_path }}vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ site.assets_path }}vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.assets_path }}vendor/fontawesome/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.assets_path }}vendor/fontawesome/css/brands.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -62,21 +63,27 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-12 copyright">
-            {{ site.data.default.copyright | markdownify }}
+          <div class="copyright col-md-4">
+            &copy;&nbsp;<strong>{{ 'now' | date: "%Y" }}</strong>&nbsp;{{ site.data.default.copyright }}
           </div>
-          <!-- <div class="col-md-6">
-            <ul class="list-inline quicklinks">
-              {%- for ql in site.data.default.quicklinks -%}
-              <li class="list-inline-item">
-                <a href="{{ ql.url }}">{{ ql.title }}</a>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              {%- for network in site.data.default.brand.social -%}
+              <li class="list-inline-item"><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
               </li>
               {%- endfor -%}
             </ul>
-          </div> -->
+          </div>
+          <div class="col-md-4">
+            <!-- <ul class="list-inline quicklinks">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+            </ul> -->
+          </div>
         </div>
       </div>
     </footer>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{ site.assets_path }}vendor/jquery/jquery.min.js"></script>

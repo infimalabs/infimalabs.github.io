@@ -17,10 +17,20 @@ brand:
     heading: Want More?
     subheading: >-
       Play GRIT&nbsp;Paintball&trade;
+  social:
+  - title: facebook
+    url: https://www.facebook.com/infimalabs
+  - title: instagram
+    url: https://www.instagram.com/infimalabs/
+  - title: twitter
+    url: https://twitter.com/infimalabs
+  - title: tiktok
+    url: https://www.tiktok.com/@infimalabs
+  - title: github
+    url: https://github.com/infimalabs
 nav:
 - title: GRIT
   url: '#speedball'
 - title: Connect
   url: '#connect'
-copyright: |-
-  &copy;&nbsp;**2022** Infima Labs
+copyright: Infima Labs
