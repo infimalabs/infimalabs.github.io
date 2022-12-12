@@ -8,6 +8,7 @@ brand:
     - Experience all realities
   speedball:
     heading: GRIT Paintball
+    steamurl: https://store.steampowered.com/app/1323610/Grit_Paintball/
     subheading: Tournament Paintball Trainer and Simulator
     stories:
     - img: img/grit.jpg
