@@ -1,1 +1,1 @@
-Copyright © 2022 Infima Labs. All Rights Reserved.
+Copyright © 2023 Infima Labs. All Rights Reserved.
