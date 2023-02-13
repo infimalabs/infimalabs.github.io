@@ -1,0 +1,12 @@
+// Styling for the feedback section
+
+#feedback {
+  & iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+  position: relative;
+  height: 75vh;
+  padding: 0;
+}

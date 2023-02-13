@@ -1,0 +1,12 @@
+// Styling for the releases section
+
+#updates {
+  & iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+  position: relative;
+  height: 75vh;
+  padding: 0;
+}

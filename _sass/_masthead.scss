@@ -25,6 +25,8 @@ header.masthead {
       font-weight: 700;
       @include intro-font;
       @include text-shadow;
+      .intro-line-the, .intro-line-press,
+      .intro-line-speak, .intro-line-business,
       .intro-line-all, .intro-line-realities {
         color: $secondary;
       }

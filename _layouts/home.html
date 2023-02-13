@@ -23,27 +23,27 @@ layout: default
     <!-- Dark -->
     <main>
 
-    <!-- :heart: Speedball -->
-    <section id="speedball">
+    <!-- Grit -->
+    <section id="grit">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">
-            {%- if site.data.default.brand.speedball.steamurl == "" -%}
-              {{ site.data.default.brand.speedball.heading }}
+            {%- if site.data.default.brand.grit.steamurl == "" -%}
+              {{ site.data.default.brand.grit.heading }}
             {%- else -%}
-              {{ site.data.default.brand.speedball.heading }} <a class="fab fa-steam" title="Play {{ site.data.default.brand.speedball.heading }} on SteamVR&trade;" href="{{ site.data.default.brand.speedball.steamurl }}"></a>
+              {{ site.data.default.brand.grit.heading }} <a class="fab fa-steam" title="Play {{ site.data.default.brand.grit.heading }} on SteamVR&trade;" href="{{ site.data.default.brand.grit.steamurl }}"></a>
             {%- endif -%}
             </h2>
-            <h3 class="section-subheading text-muted">{{ site.data.default.brand.speedball.subheading }}</h3>
+            <h3 class="section-subheading text-muted">{{ site.data.default.brand.grit.subheading }}</h3>
           </div>
         </div>
         <div class="window row">
-          {%- for story in site.data.default.brand.speedball.stories -%}
-          {%- capture markdown -%}{%- include {{ story.include }} -%}{%- endcapture -%}
+          {%- for item in site.data.default.brand.grit.items -%}
+          {%- capture markdown -%}{%- include {{ item.include }} -%}{%- endcapture -%}
           <div class="col-sm-12">
-            <div class="speedball-story">
-              <img class="mx-auto" src="{{ site.assets_path }}{{ story.img }}" alt="{{ story.alt }}">
+            <div class="grit-item">
+              <img class="mx-auto" src="{{ site.assets_path }}{{ item.img }}" alt="{{ item.alt }}">
               <div class="mx-auto">{{ markdown | markdownify }}</div>
             </div>
           </div>
@@ -51,19 +51,7 @@ layout: default
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">{{ site.data.default.brand.speedball.text }}</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Connect -->
-    <section id="connect">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">{{ site.data.default.brand.connect.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.default.brand.connect.subheading }}</h3>
+            <p class="large text-muted">{{ site.data.default.brand.grit.text }}</p>
           </div>
         </div>
       </div>

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+    <!-- Header -->
+    {% for i in (1..2) -%}
+    <header class="masthead {% cycle 'fixed', 'unfixed' %}">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading">
+          {%- for line in site.data.default.brand.intro.updates -%}
+            {% assign words = line | split: " " %}
+            <div class="intro-line">
+            {%- for w in words -%}<span class="intro-line-{{ w | slugify }}">{{ w }}</span> {% endfor -%}
+            </div>
+          {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </header>
+    {% endfor -%}
+
+    <!-- Dark -->
+    <main>
+
+    <!-- Updates -->
+    <section id="updates">
+      <iframe src="https://embed-967750792.sleekplan.app/#/changelog/" sandbox="allow-same-origin allow-scripts allow-forms">
+      </iframe>
+    </section>
+
+    </main>
