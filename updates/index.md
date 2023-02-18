@@ -1,3 +1,4 @@
 ---
 layout: updates
+title: Updates
 ---
