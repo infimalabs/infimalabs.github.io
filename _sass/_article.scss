@@ -150,8 +150,7 @@ section,
 
   img,
   {
-    border-color: $primary;
-    border-style: solid;
+    border: 0 solid $primary;
     vertical-align: bottom;
 
     &:only-child { border-width: 3px 0; }
