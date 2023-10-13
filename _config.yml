@@ -1,9 +1,50 @@
+tz: America/Chicago
+url: https://infimalabs.com
 title: Infima Labs
-author: C Anthony Risinger
+author: Infima Labs
 description: >-
   Infima Labs
 
-assets_path: /assets/
+host: 0.0.0.0
+open_url: true
+encoding: utf-8
+strict_front_matter: true
+
+exclude:
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+plugins:
+  - jekyll-mentions
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+  # Too many exceptions with no clear solutions.
+  # strict_variables: true
+
+kramdown:
+  show_warnings: true
 
 sass:
   style: compressed
+  sourcemap: development
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: article
+      newline: "\n"
+      title: Experience all realities

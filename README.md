@@ -1,4 +1,10 @@
-### Looking to gain an edge in the real game? [Play GRIT on SteamVR&trade;](https://store.steampowered.com/app/1323610/Grit_Paintball/)
+# GRIT Paintball [](https://store.steampowered.com/app/1323610/Grit_Paintball/){: .fab .fa-steam title="Play GRIT Paintball on SteamVR™"}
+
+###### Tournament Paintball Trainer and Simulator
+
+![GRIT Paintball](/assets/img/grit.jpg)
+
+## Looking to gain a _real_ edge? [Play GRIT on SteamVR&trade;](https://store.steampowered.com/app/1323610/Grit_Paintball/)
 
 ***GRIT PAINTBALL*** is a Virtual Reality tournament paintball trainer and
 simulator. Aimed mostly at current paintball players looking to gain an edge in
@@ -6,7 +12,7 @@ the real game, GRIT allows players to practice from home. GRIT uses a mouse,
 keyboard and monitor for the menu and field building parts of the game, and
 then you enter VR to experience the field you've designed.
 
-##### GRIT can mix input from VR controllers and the Vive Tracker.
+#### GRIT can mix input from VR controllers and the Vive Tracker.
 
 GRIT only requires one VR controller but will detect two, as it's designed
 so the player can replicate the feel of swapping their gun from hand to hand.
@@ -15,7 +21,7 @@ paintball gun with a Vive Tracker so that players can get the most immersive
 and realistic feel possible. Of course, anyone can design their own hardware if
 they have a Vive Tracker!
 
-##### GRIT can edit layouts in-game and has up-to-date 2022 NXL bunkers.
+#### GRIT can edit layouts in-game and has up-to-date 2022 NXL bunkers.
 
 Layouts can be locally saved and loaded, as well as easily shared between
 players by sending a small text file via email or messenger. By utilizing VR, a

@@ -1,23 +1,13 @@
+copyright: Infima Labs
+
+ident:
+  ga: G-9MZFEVF7HW
+
 brand:
   name:
   - infima
   - "&lt;"
   - labs
-  intro:
-    heading:
-    - Experience all realities
-    updates:
-    - Fresh off the press
-    feedback:
-    - Give us the business
-  grit:
-    heading: GRIT Paintball
-    steamurl: https://store.steampowered.com/app/1323610/Grit_Paintball/
-    subheading: Tournament Paintball Trainer and Simulator
-    items:
-    - img: img/grit.jpg
-      alt: Looking to gain an edge in the real game?
-      include: grit.md
   social:
   - title: facebook
     url: https://www.facebook.com/infimalabs
@@ -25,11 +15,11 @@ brand:
     url: https://www.instagram.com/infimalabs/
   - title: twitter
     url: https://twitter.com/infimalabs
+
 nav:
 - title: GRIT
   url: '/#grit'
 - title: Updates
-  url: '/updates/'
+  url: '/updates'
 - title: Feedback
-  url: '/feedback/'
-copyright: Infima Labs
+  url: '/feedback'
