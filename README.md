@@ -32,7 +32,7 @@ snapshots and, with a large enough play area, moves from bunker to bunker.
 
 ###### Spatial Computing Research and Experimental Libraries
 
-![Illustration of A15 at three different scales.](/assets/img/A15.png)
+![Illustration of A15 at three different scales](/assets/img/A15.png){: title="Illustration of A15 at three different scales"}
 
 ## _What is infima.space?_
 
