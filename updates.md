@@ -1,7 +1,11 @@
 ---
 title: Updates
-permalink: /updates
-redirect_from: [/updates/]
+permalink: /updates/
 intro: Fresh off the press
 ---
-{%- include iframe.html id="changelog" -%}
+
+# Our Happenings and Doings
+
+###### Stay in the Loop and Out of the Dark
+
+{% include sleekplan.html id=site.data.default.ident.sleekplan path="changelog" %}
