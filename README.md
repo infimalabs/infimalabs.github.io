@@ -32,6 +32,8 @@ snapshots and, with a large enough play area, moves from bunker to bunker.
 
 ###### Spatial Computing Research and Experimental Libraries
 
+![Illustration of A15 at three different scales.](/assets/img/A15.png)
+
 ## _What is infima.space?_
 
 [Infima Space](https://infima.space){: target="_blank"} showcases research projects from [Infima Labs](/#infima-labs){:
@@ -56,8 +58,6 @@ dedicated page on this site. When applicable, original research and code is made
 > high-dimensional coordinate to a consistent volume of 3D space shrinks the encoding of nearby coordinates, minimizes
 > directional aliasing, and maintains
 > compatibility with global ...
-
-![Illustration of A15 at three different scales.](/assets/img/A15.png)
 
 We invite everyone interested in this research to join us at its [GitHub project page](https://github.com/infimalabs/space){:
 target="_blank"}. With the understanding this document is incomplete, we also invite any questions and requests for math, code,
