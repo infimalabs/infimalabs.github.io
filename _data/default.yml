@@ -20,6 +20,8 @@ brand:
 nav:
 - title: GRIT
   url: '/#grit-paintball'
+- title: SPACE
+  url: '/#infima-space'
 - title: Updates
   url: '/updates'
 - title: Feedback
