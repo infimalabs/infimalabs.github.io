@@ -53,6 +53,7 @@ section,
     text-align: center;
     width: 96rem;
 
+    > a:empty { margin: 0.2em; }
     > em { padding-right: 0.2em; }
     > span { font-size: 1.5ex; }
     > span:nth-of-type(even)::after { content: "\0a"; white-space: pre; }

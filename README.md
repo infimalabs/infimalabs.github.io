@@ -1,10 +1,12 @@
-# GRIT Paintball [](https://store.steampowered.com/app/1323610/Grit_Paintball/){: .fab .fa-steam title="Play GRIT Paintball on SteamVR™"}
+# GRIT Paintball[](https://store.steampowered.com/app/1323610/Grit_Paintball/){: .fab .fa-steam title="Play GRIT Paintball on SteamVR&trade;" target="_blank"}
 
 ###### Tournament Paintball Trainer and Simulator
 
 ![GRIT Paintball](/assets/img/grit.jpg)
 
-## Looking to gain a _real_ edge? [Play GRIT on SteamVR&trade;](https://store.steampowered.com/app/1323610/Grit_Paintball/)
+## [Play GRIT Paintball on SteamVR&trade;](https://store.steampowered.com/app/1323610/Grit_Paintball/){: target="_blank" title="Play GRIT Paintball on SteamVR&trade;"}
+
+### Looking to gain an edge in the _real_ game?
 
 ***GRIT PAINTBALL*** is a Virtual Reality tournament paintball trainer and
 simulator. Aimed mostly at current paintball players looking to gain an edge in
