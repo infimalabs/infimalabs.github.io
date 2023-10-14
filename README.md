@@ -46,12 +46,6 @@ dedicated page on this site. When applicable, original research and code is made
 
 #### [A15 Phase Structure](https://infima.space/A15/){: target="_blank"}
 
-We invite everyone interested in this research to join us at its [GitHub project page](https://github.com/infimalabs/space){:
-target="_blank"}. With the understanding this document is incomplete, we also invite any questions and requests for math, code,
-or language clarifications, corrections, comments, or other such communications in the form of [GitHub
-issues](https://github.com/infimalabs/space/issues){: target="_blank"}.
-
-
 * Research [PDF](https://infima.space/A15.pdf){: target="_blank"} or [HTML](https://infima.space/A15/){: target="_blank"} (early draft release)
 * `space-rust` [Protocol](https://github.com/infimalabs/space-rust){: target="_blank"} (under development)
 
@@ -62,3 +56,10 @@ issues](https://github.com/infimalabs/space/issues){: target="_blank"}.
 > high-dimensional coordinate to a consistent volume of 3D space shrinks the encoding of nearby coordinates, minimizes
 > directional aliasing, and maintains
 > compatibility with global ...
+
+![Illustration of A15 at three different scales.](/assets/img/A15.png)
+
+We invite everyone interested in this research to join us at its [GitHub project page](https://github.com/infimalabs/space){:
+target="_blank"}. With the understanding this document is incomplete, we also invite any questions and requests for math, code,
+or language clarifications, corrections, comments, or other such communications in the form of [GitHub
+issues](https://github.com/infimalabs/space/issues){: target="_blank"}.
