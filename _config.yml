@@ -1,5 +1,4 @@
 tz: America/Chicago
-url: https://infimalabs.com
 title: Infima Labs
 author: Infima Labs
 description: >-
@@ -15,15 +14,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
 
 plugins:
   - jekyll-mentions
   - jekyll-readme-index
   - jekyll-redirect-from
+  - jekyll-relative-links
   - jekyll-sitemap
   - jemoji
 
