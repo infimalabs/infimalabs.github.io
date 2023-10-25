@@ -11,9 +11,12 @@ encoding: utf-8
 strict_front_matter: true
 
 exclude:
+  - "*/Makefile"
+  - "*/latexmkrc"
   - .sass-cache
   - Gemfile
   - Gemfile.lock
+  - Makefile
   - node_modules
   - vendor/
 
