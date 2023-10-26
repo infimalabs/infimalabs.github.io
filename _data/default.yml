@@ -20,6 +20,6 @@ nav:
 - title: SPACE
   url: '/#infima-space'
 - title: Updates
-  url: '/updates'
+  url: '/updates/#main'
 - title: Feedback
-  url: '/feedback'
+  url: '/feedback/#main'
