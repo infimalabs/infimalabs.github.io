@@ -6,6 +6,7 @@ body[id],
   {
     align-items: center;
     display: flex;
+    flex-flow: row wrap;
     height: 5.5rem;
     justify-content: center;
     position: sticky;
@@ -70,7 +71,10 @@ body[id],
         }
 
         &:hover:not([autofocus]:focus),
-        { color: darken($primary, 20%); }
+        {
+          color: darken($primary, 20%);
+          outline-width: medium;
+        }
       }
 
       > button ~ ul,
