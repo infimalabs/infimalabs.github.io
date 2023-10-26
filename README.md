@@ -36,7 +36,7 @@ snapshots and, with a large enough play area, moves from bunker to bunker.
 
 ## _What is infima.space?_
 
-[Infima Space](https://infima.space){: target="_blank"} showcases research projects from [Infima Labs](/#infima-labs){:
+[Infima Space](https://infima.space){: target="_blank"} showcases research projects from [Infima Labs](/#readme){:
 .js-scroll-trigger}. Dedicated to the advancement of highly-interconnected virtual spaces, we believe the long-anticipated
 arrival of mainstream spatial computing is near. We use this _space_ to aggregate and present our ideas and research on such
 technologies.

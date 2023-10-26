@@ -1,6 +1,6 @@
 ident:
-  ga: G-9MZFEVF7HW
   sleekplan: "967750792"
+  ga: G-9MZFEVF7HW
 
 brand:
   name:
@@ -20,6 +20,6 @@ nav:
 - title: SPACE
   url: '/#infima-space'
 - title: Updates
-  url: '/updates/#main'
+  url: '/updates/#readme'
 - title: Feedback
-  url: '/feedback/#main'
+  url: '/feedback/#readme'
