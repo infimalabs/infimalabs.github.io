@@ -1,0 +1,52 @@
+tz: America/Chicago
+title: Infima Labs
+author: Infima Labs
+authorurl: https://infimalabs.com
+description: >-
+  Infima Labs
+
+host: 0.0.0.0
+open_url: true
+encoding: utf-8
+strict_front_matter: true
+
+exclude:
+  - "*/Makefile"
+  - "*/latexmkrc"
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - node_modules
+  - vendor/
+
+plugins:
+  - jekyll-mentions
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-sitemap
+  - jemoji
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+  # Too many exceptions with no clear solutions.
+  # strict_variables: true
+
+kramdown:
+  show_warnings: true
+
+sass:
+  style: compressed
+  sourcemap: development
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: article
+      newline: "\n"
+      title: Experience all realities
+      intro: Experience all realities

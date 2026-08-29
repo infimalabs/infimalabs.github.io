@@ -1,0 +1,23 @@
+ident:
+  sleekplan: "967750792"
+  ga: G-9MZFEVF7HW
+
+brand:
+  name:
+  - "&lt;"
+  - labs
+  social:
+  - title: facebook
+    url: https://www.facebook.com/infimalabs
+  - title: instagram
+    url: https://www.instagram.com/infimalabs/
+  - title: twitter
+    url: https://twitter.com/infimalabs
+
+nav:
+- title: GRIT
+  url: '/#grit-paintball'
+- title: Updates
+  url: '/updates/#readme'
+- title: Feedback
+  url: '/feedback/#readme'
